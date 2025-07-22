@@ -1,5 +1,5 @@
 # 一、基础环境准备
-""
+```
 sudo apt update -y    
 sudo apt install -y vim tree   
  
@@ -7,9 +7,10 @@ pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 pip config set install.trusted-host mirrors.aliyun.com    
 
 pip install "distilabel[openai]" "ray[default]" "datasets"
-""
+```
 
 # 二、代码工程结构
+```
 (llm) xx@mbp-m4 hejing % tree finetune-medical
 finetune-medical
 ├── 说明.md
@@ -20,6 +21,7 @@ finetune-medical
 ├── raw
 │   └── train_zh_1000.json
 └── results
+```
 
 4 directories, 5 files
 
