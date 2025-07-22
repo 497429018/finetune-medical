@@ -24,12 +24,14 @@ finetune-medical
 4 directories, 5 files
 
 # 三、代码工程运行
-
 ## 1. 预处理数据
 python generate_cot.py
+![数据集生成](screenshots/img1.png)
 
 ## 2. 模型微调
 python finetune_medical.py
+![Qwen3-4B模型微调](screenshots/img2.png)
 
 ## 3. 微调模型测试
 python inference.py
+![微调模型测试](screenshots/img3.png)
